@@ -1,5 +1,5 @@
 
-
+"use client";
 import React, {useEffect} from "react";
 import { SiGoogledocs } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
