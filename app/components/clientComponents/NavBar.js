@@ -8,20 +8,25 @@ const NavBar = () => {
   const [changeColor, setChangeColor] = useState(false);
 
 
-  const scrollChange = () => {
-    if (window.scrollY >= window.innerHeight / 2) {
-      setChangeColor(true);
-    } else {
-      setChangeColor(false);
-    }
-  };
+  
 
 
   useEffect(() => {
+    const scrollChange = () => {
+      if (window.scrollY >= window.innerHeight / 2) {
+        setChangeColor(true);
+      } else {
+        setChangeColor(false);
+      }
+    };
+
+    if (typeof window !== 'undefined') {
+      window.addEventListener('scroll', scrollChange);
 
 
-    if (typeof window !== "undefined"){
-      window.addEventListener("scroll", scrollChange);
+      return () => {
+        window.removeEventListener('scroll', scrollChange);
+      };
     }
   
   }, [changeColor, setChangeColor])
