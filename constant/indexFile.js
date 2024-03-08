@@ -69,3 +69,13 @@ export const VAN_PROJECTS = [
     liveDemoLink: "https://vanprecilla-dev.github.io/to-do-app-webapi/",
   },
 ];
+
+
+export const ANIMATION__LOTTIE_JSON = [
+  {label: "scroll down animation", src: "/ScrolldownLottie.json"}
+]
+
+
+export const BG_PIC = {
+
+}

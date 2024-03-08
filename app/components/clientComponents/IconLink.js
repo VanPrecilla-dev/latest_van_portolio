@@ -1,16 +1,25 @@
-"use client";
 
-import React from "react";
+
+import React, {useEffect} from "react";
 import { SiGoogledocs } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 
-const IconLink = () => {
+const IconLink = ({changeColor, setChangeColor}) => {
+
+
   const linkClass = "hover:bg-[#E4E0F5] hover:scale-110 p-2 rounded-full";
   const iconStyle = { width: "28px", height: "28px", color:"#8C52FF" };
 
+  const linkIconHome = "flex flex-row gap-3 lg:gap-6 bg-white  px-5 lg:px-10 rounded-full text-white border-2 border-white"
+  const linkIconOther ="flex flex-row gap-3 lg:gap-6 bg-white  px-5 lg:px-10 rounded-full text-[#8C52FF] border-2 border-[#8C52FF]"
+
+
+
+  
+
   return (
-    <ul className="flex flex-row gap-3 lg:gap-6 bg-white  px-5 lg:px-10 rounded-full text-white border-2 border-white">
+    <ul className={changeColor ? linkIconOther : linkIconHome }>
       <li className={`${linkClass}, hover:rounded-full cursor-pointer group`}>
         <a
           href="https://drive.google.com/drive/folders/1t2bHXiNMT56YV8bjm1SiKSRlmlSI5x-l?usp=sharing"

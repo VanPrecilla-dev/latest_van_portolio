@@ -2,11 +2,15 @@ import React from "react";
 
 import { Link } from "react-scroll";
 
-const LinkMenu = () => {
-  const linkClass = "hover:bg-[#A193DC] hover:scale-110 p-2 rounded-full";
+const LinkMenu = ({changeColor, setChangeColor}) => {
+  const linkClass = "hover:bg-[#A193DC] hover:text-white hover:scale-110 p-2 rounded-full";
+
+
+  const linkMenuHome = "flex flex-row gap-1 lg:gap-10 text-md lg:text-xl px-5 lg:px-10 rounded-full text-white border-2 border-white"
+  const linkMenuOther = "flex flex-row gap-1 lg:gap-10 text-md lg:text-xl px-5 lg:px-10 bg-white rounded-full text-[#8C52FF] border-2  border-[#8C52FF]"
 
   return (
-    <ul className="flex flex-row gap-1 lg:gap-10 text-md lg:text-xl px-5 lg:px-10 rounded-full text-white border-2 border-white">
+    <ul className={changeColor ? linkMenuOther : linkMenuHome}>
       <li className={linkClass}>
         <Link
           activeClass="active"

@@ -11,7 +11,9 @@ module.exports = {
     extend: {
       colors: {
       },
-      backgroundImage: {},
+      backgroundImage: {
+        'starry-night' : "url('/purple_bg.jpg')"
+      },
 
       screens: {
         xs: "400px",
