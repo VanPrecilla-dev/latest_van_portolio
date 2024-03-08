@@ -7,6 +7,7 @@ import LinkMenu from "./LinkMenu";
 const NavBar = () => {
   const [changeColor, setChangeColor] = useState(false);
 
+
   const scrollChange = () => {
     if (window.scrollY >= window.innerHeight / 2) {
       setChangeColor(true);
@@ -15,7 +16,16 @@ const NavBar = () => {
     }
   };
 
-  window.addEventListener("scroll", scrollChange);
+
+  useEffect(() => {
+
+
+    if (typeof window !== "undefined"){
+      window.addEventListener("scroll", scrollChange);
+    }
+  
+  }, [changeColor, setChangeColor])
+  
 
   return (
     <div className={`fixed w-full z-50 ${changeColor ? 'backdrop-blur-sm bg-white/30' : 'bg-transparent' } `}>
