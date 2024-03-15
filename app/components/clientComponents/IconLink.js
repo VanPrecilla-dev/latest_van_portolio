@@ -28,7 +28,7 @@ const IconLink = ({changeColor, setChangeColor}) => {
         >
           <SiGoogledocs style={iconStyle} />{" "}
         </a>
-        <div class="opacity-0 w-40 bg-[#8C52FF] text-white text-center text-xs rounded-lg m-5 py-2 absolute z-10 group-hover:opacity-100 px-3 pointer-events-none">
+        <div className="opacity-0 w-40 bg-[#8C52FF] text-white text-center text-xs rounded-lg m-5 py-2 absolute z-10 group-hover:opacity-100 px-3 pointer-events-none">
           Open Resume
         </div>
       </li>

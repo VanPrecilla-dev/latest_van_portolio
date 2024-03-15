@@ -1,7 +1,7 @@
 'use client'
 import React from "react";
 import Lottie from "react-lottie";
-import animationData from './particles_lottie.json';
+import animationData from './line_lottie.json';
 
 const LottieBG = () => {
     const defaultOptions = {
@@ -12,14 +12,14 @@ const LottieBG = () => {
       };
     
       return (
-        <>
+        <div className="w-full">
           <Lottie
             options={defaultOptions}
-            style={{ width: '500px', position: "absolute", alignSelf: "end" }}
-            height={1000}
-            width={1000}
+            style={{ width: '500px' }}
+            height={500}
+            width={500}
           />
-        </>
+        </div>
       );
 }
 

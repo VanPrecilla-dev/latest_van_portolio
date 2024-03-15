@@ -42,7 +42,7 @@ export const VAN_PROJECTS = [
       "This is her latest portfolio with new design and added full stack project to her existing front-end projects",
     tech: "ReactJS, NextJS, Javascript, TailwindCSS, HTML, and CSS",
     githubLink: "https://github.com/VanPrecilla-dev/latest_van_portolio.git",
-    liveDemoLink: "",
+    liveDemoLink: "https://latest-van-portolio.vercel.app/",
   },
   {
     label: "ConvoChat App",
@@ -54,7 +54,7 @@ export const VAN_PROJECTS = [
   },
   {
     label: "VisitVisitPhilippinesGem",
-    img: "visitphilippinegem_pic.png",
+    img: "/visitphilippinegem_pic.png",
     description:   "VisitPhilippinesGem is a landing page of a dummy company. This is a front-end project. Responsive for Desktop & Mobile View",
     tech: "ReactJS, NextJS, Typescript, Tailwind CSS, HTML and CSS",
     githubLink: "https://github.com/VanPrecilla-dev/VisitPhilippinesGem.git",
