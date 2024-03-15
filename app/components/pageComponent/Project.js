@@ -8,15 +8,15 @@ const Project = () => {
   return (
     <section id="project" className="flex bg-[linear-gradient(45deg,#C06AE3,#1A4EB4,#6F5CCC,#C06AE3)] w-full pt-24 xl:pt-32 ">
       <div className="max-container  3xl:px-0 z-20 flex flex-col px-0 gap-5 py-5 pb-10 md:gap-5 lg:pt-24 lg:px-5 xl:flex-col">
-        <h1 className="flex z-20 self-center p-2 rounded-2xl font-bold text-white text-3xl lg:text-4xl xl:text-5xl">
+        <h1 className="flex z-20 self-center p-2 rounded-2xl font-bold text-white text-3xl lg:text-4xl xl:text-5xl animate-slidein300">
           Featured Projects
         </h1>
-        <div className="flex flex-col xl:grid xl:grid-cols-2 gap-5 z-20 px-5 lg:p-5 ">
+        <div className="flex flex-col xl:grid xl:grid-cols-2 gap-5 z-20 px-5 lg:p-5 animate-slidein500 ">
           {VAN_PROJECTS.map((item, key) => {
             return (
               <div
                 key={key}
-                className="flex bg-[linear-gradient(45deg,#C06AE3,#1A4EB4,#6F5CCC,#C06AE3)] bg-[length:200%_auto] animate-color rounded-3xl p-1  "
+                className="flex hover:scale-105 bg-[linear-gradient(45deg,#C06AE3,#1A4EB4,#6F5CCC,#C06AE3)] bg-[length:200%_auto] animate-color rounded-3xl p-1  "
               >
                 <div className="flex flex-col gap-2 py-5 px-2 md:p-5 backdrop-blur-md bg-white/5 text-white rounded-3xl font-Poppins ">
                   <h3 className="font-bold text-lg md:text-2xl text-white bg-[#9165eb] p-1 rounded-xl text-center">

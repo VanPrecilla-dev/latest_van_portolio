@@ -13,14 +13,6 @@
   
 }
 
-body{
-
-}
-
-@layer base {
-  html {
-    font-family: Poppins;  }
-}
 
 
 @layer utilities {
