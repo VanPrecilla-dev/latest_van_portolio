@@ -26,10 +26,10 @@ export const VAN_DETAILS = [
     }},
     {contact: {
       connectLine: "Let's connect and create something awesome!",
-      contactThru: "Feel free to CONTACT ME through:",
+      contactThru: "Feel free to contact me through:",
       emailAdd: "Email: vanprecilla.dev@gmail.com ",
       linkedIn: "Message me on LinkedIn",
-      endNote: "Thank you",
+      endNote: "Thank you!",
     }},
   
 ];
@@ -37,9 +37,9 @@ export const VAN_DETAILS = [
 export const VAN_PROJECTS = [
   {
     label: "Van Precilla Portfolio",
-    img: "",
+    img: "/web_dev_portfolio.png",
     description:
-      "This is her latest portfolio with new design and added full stack project to her existing front-end projects",
+      "This is her latest portfolio with new design and added full stack project to her existing front-end projects. Click Github Link for more details.",
     tech: "ReactJS, NextJS, Javascript, TailwindCSS, HTML, and CSS",
     githubLink: "https://github.com/VanPrecilla-dev/latest_van_portolio.git",
     liveDemoLink: "https://latest-van-portolio.vercel.app/",
@@ -47,15 +47,15 @@ export const VAN_PROJECTS = [
   {
     label: "ConvoChat App",
     img: "/convo_chat_pic.png",
-    description: "CONVO CHAT is a full-stack website personal project, encompassing both frontend and backend development. It demonstrates proficiency in building modern web applications from the ground up, including real-time communication features, responsive design, and user interface enhancements.",
+    description: "Convo Chat App is a full-stack website personal project, encompassing both frontend and backend development. It demonstrates proficiency in building modern web applications from the ground up, including real-time communication features, responsive design, and user interface enhancements. Click Github Link for more details. ",
     tech: "ReactJS, Node.js, Express.js, Socket.io, Simple-Peer, Tailwind CSS, Daisyui, HTML, CSS and other react libraries",
     githubLink: "https://github.com/VanPrecilla-dev/convochat.git",
     liveDemoLink: "https://github.com/VanPrecilla-dev/convochat.git",
   },
   {
-    label: "VisitVisitPhilippinesGem",
+    label: "VisitVisitPhilippinesGem Landing Page",
     img: "/visitphilippinegem_pic.png",
-    description:   "VisitPhilippinesGem is a landing page of a dummy company. This is a front-end project. Responsive for Desktop & Mobile View",
+    description:   "VisitPhilippinesGem is a landing page of a dummy company. This is a front-end project. Responsive for Desktop & Mobile View. Click Github Link for more details.",
     tech: "ReactJS, NextJS, Typescript, Tailwind CSS, HTML and CSS",
     githubLink: "https://github.com/VanPrecilla-dev/VisitPhilippinesGem.git",
     liveDemoLink: "https://van-visit-philippines-gem.vercel.app/",
@@ -63,7 +63,7 @@ export const VAN_PROJECTS = [
   {
     label: "To-Do-App WebAPI",
     img: "/to_do_app_api_pic.png",
-    description:"To-Do-App, a simple and intuitive To-Do App built with ReactJS, JavaScript, HTML, CSS, and Bootstrap. This project showcases the power of these technologies in creating a responsive and user-friendly task management application. Key Features: Create, Read, Update, and Delete (CRUD) operations for tasks.Stylish and responsive design with Bootstrap and custom CSS. Seamless integration with Web APIs for a dynamic user experience. Use json placeholder.",    
+    description:"To-Do-App, a simple and intuitive To-Do App built with ReactJS, JavaScript, HTML, CSS, and Bootstrap. This project showcases the power of these technologies in creating a responsive and user-friendly task management application. Key Features: Create, Read, Update, and Delete (CRUD) operations for tasks.Stylish and responsive design with Bootstrap and custom CSS. Seamless integration with Web APIs for a dynamic user experience. Use json placeholder. Click Github Link for more details.",    
     tech: "ReactJS, JavaScript, HTML, CSS, and Bootstrap",
     githubLink: "https://github.com/VanPrecilla-dev/to-do-app-webapi.git",
     liveDemoLink: "https://vanprecilla-dev.github.io/to-do-app-webapi/",

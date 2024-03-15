@@ -13,7 +13,7 @@ const ScrollDownAnimation = () => {
   };
 
   return (
-    < >
+    <>
       <Link
         activeClass="active"
         to="about"
@@ -21,14 +21,11 @@ const ScrollDownAnimation = () => {
         smooth={true}
         offset={50}
         duration={500}
-
       >
         <Lottie
           options={defaultOptions}
-          style={{ position: "absolute", alignSelf: "end" }}
           height={50}
           width={50}
-         
         />
       </Link>
     </>
