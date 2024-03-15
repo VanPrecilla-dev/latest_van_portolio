@@ -11,7 +11,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="flex bg-[url('/side_bg.jpg')] bg-center bg-fixed bg-cover w-full pt-24 xl:pt-32 animate-slidein500 "
+      className="flex bg-[url('/side_bg.jpg')] bg-center bg-fixed bg-cover w-full pt-24 xl:pt-32 "
     >
       <div className="max-container padding-container z-10 flex flex-col lg:flex-col xl:flex-row gap-10 pb-14 xl:pb-32 lg:pt-16 lg:px-20  ">
         <div className="flex flex-col w-full xl:w-[50%]  gap-5 items-center ">

@@ -24,10 +24,10 @@ const Contact = () => {
           src="/ai_pic_van.png"
           width={500}
           height={500}
-          className="absolute bottom-0 w-64 h-60 md:w-[500px] md:h-[320px]  lg:left-10 lg:w-[550px] lg:h-[500px] object-cover animate-slidein500"
+          className="absolute bottom-0 w-64 h-60 md:w-[500px] md:h-[320px]  lg:left-10 lg:w-[550px] lg:h-[500px] object-cover animate-slidein300"
         />
 
-        <div className="flex  overflow-auto grow p-5 w-full self-center lg:self-end pro:w-[450px] pro:h-[400px] pro:mr-24 pro:mb-0  pro:px-5 md:w-[600px]  lg:w-[900px] lg:py-10 mt-5 md:mt-0 mb-14 lg:mb-0 lg:mr-20  bg-[#8C52FF]  rounded-5xl animate-slidein700 ">
+        <div className="flex  overflow-auto grow p-5 w-full self-center lg:self-end pro:w-[450px] pro:h-[400px] pro:mr-24 pro:mb-0  pro:px-5 md:w-[600px]  lg:w-[900px] lg:py-10 mt-5 md:mt-0 mb-14 lg:mb-0 lg:mr-20  bg-[#8C52FF]  rounded-5xl animate-slidein300 ">
           <div className="flex flex-col gap-5 backdrop-blur-sm bg-white/30 hover:bg-[#3b314e] w-full p-5 md:p-5 rounded-5xl">
             <p className="flex text-sm md:text-lg lg:text-2xl  break-words text-pretty self-start pro:text-2xl  pro:px-5   lg:px-16 ">
               {VAN_DETAILS[3].contact.connectLine}
